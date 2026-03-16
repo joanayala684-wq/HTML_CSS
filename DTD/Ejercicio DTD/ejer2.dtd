@@ -1,0 +1,4 @@
+<!ELEMENT ciudades (ciudad+)>
+<!ELEMENT ciudad (nombre,capital?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT capital EMPTY>

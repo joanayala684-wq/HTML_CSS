@@ -1,0 +1,21 @@
+@font-face {
+    font-family:'Montserrat' ;
+    src: url(../font/Montserrat-BoldItalic.ttf);
+}
+
+body{
+text-align: center;
+background-color: #E3E4DE;
+font-family: 'Montserrat';
+font-size: 25px;
+color: #444; 
+margin-left: 30px;
+margin-top: 20px;
+}
+.colorazul{
+    color :blue;
+}
+.mondrian{
+width: 250px;
+height: 250px;
+}

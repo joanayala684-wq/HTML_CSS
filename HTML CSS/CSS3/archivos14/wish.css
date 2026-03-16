@@ -1,0 +1,99 @@
+* {
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Muli' ;
+    src:  url(archivos14/Muli-Regular.ttf);
+}
+body{
+    font-family: 'Muli-Regular';
+    background-color: #FDF5E6;
+    width: 800px;
+    margin-bottom:10px ;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#centrar{
+    margin: auto;
+    align-items: center;
+  
+}
+h1{
+    text-align: center;
+    text-shadow: 5px 10px 60px;
+    background-color: #83737d;
+    border-radius: 10px;
+    margin: auto;
+    color: #FDF5E6;
+    width: 500px;
+    height: 60px;
+}
+#cuadro{
+    display: flex;
+}
+#menu{
+    background-color: #FDF5E6;
+    box-shadow: 5px 5PX 18px  rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 350px;
+    height: 200px;
+    box-shadow: 5px ;
+}
+.vinculo{
+
+    display: block;
+    text-decoration: transparent;
+    color: #83737d;
+    padding: 10px;
+    border: solid 1px #83737d;
+
+}
+#menu>a:hover{
+    background-color: #83737d;
+    color:white;
+    border-radius: 10px 10px 0px 0px;
+}
+#lateral{
+    text-align: justify;
+    padding: 15px;
+    color: #83737d;
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 350px;
+    box-shadow: 5px 5PX 18px  rgba(0, 0, 0, 0.8);
+   
+}
+#contenedor{
+    text-align: center;
+    box-shadow: 5px 5px 18px  rgba(0, 0, 0, 0.8);
+    margin-top: 40px;
+    width: 800px;
+    height: 300px;  
+     
+}
+.imagen{
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 300px;
+    height: 200px;
+}
+footer{
+    background-color: #FDF5E6;
+    text-align: center;
+    color:black;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 740px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0PX 15px  rgba(0, 0, 0, 0.8);
+}

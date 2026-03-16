@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc:inventario xmlns:doc="documentacion">
+  <mus:organo xmlns:mus="musica">
+    <mus:tipo>Barroco</mus:tipo>
+    <mus:numero_tubos>1200</mus:numero_tubos>
+    <mus:ubicacion>Catedral de Sevilla</mus:ubicacion>
+  </mus:organo>
+
+  <bio:organo xmlns:bio="biologia">
+    <bio:sistema>Cardiovascular</bio:sistema>
+    <bio:peso_promedio unidad="gramos">300</bio:peso_promedio>
+    <bio:funcion_principal>Bombeo sanguíneo</bio:funcion_principal>
+  </bio:organo>
+
+  <adm:organo xmlns:adm="administracion">
+    <adm:competencia>Legislativa</adm:competencia>
+    <adm:miembros_activos>350</adm:miembros_activos>
+  </adm:organo>
+
+</doc:inventario>

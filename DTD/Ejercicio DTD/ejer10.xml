@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE libro-direcciones SYSTEM "ejer10.dtd">
+<libro-direcciones>
+  <entrada id="e12">
+    <nombre>Juan Pérez</nombre>
+    <direccion> 
+      <calle tipo="Avenida">De la Constitución, 5</calle>
+      <codigo-postal>28001</codigo-postal>
+      <localidad>Madrid</localidad>
+      <pais>España</pais>
+    </direccion>
+    <tel principal="si">912345678</tel>
+    <email href="mailto:juan.perez@email.com"></email>
+    <comentarios>Amigo de la infancia</comentarios>
+  </entrada>
+  <entrada id="e13">
+    <nombre>Marta Sánchez</nombre>
+    <direccion> 
+      <calle tipo="Calle">Mayor, 10</calle>
+      <codigo-postal>41001</codigo-postal>
+      <localidad>Sevilla</localidad>
+      <pais>España</pais>
+    </direccion>
+    <tel principal="no">600987654</tel>
+    </entrada>
+</libro-direcciones>

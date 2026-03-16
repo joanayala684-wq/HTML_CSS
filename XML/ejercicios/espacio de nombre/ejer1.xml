@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reg:registro xmlns:reg="registro">
+    <tel:canal xmlns:tel="television">
+        <tel:numero>5</tel:numero>
+        <tel:nombre>Telecinco</tel:nombre>
+        <tel:idioma>español</tel:idioma>
+    </tel:canal>
+     <tel:canal xmlns:tel="television">
+        <tel:numero>4</tel:numero>
+        <tel:nombre>Boing</tel:nombre>
+        <tel:idioma>español</tel:idioma>
+    </tel:canal>
+    <geo:canal xmlns:geo="geografico">
+        <geo:longitud>80km</geo:longitud>
+        <geo:tipo>artificial</geo:tipo>
+    </geo:canal>
+      <geo:canal xmlns:geo="geografico">
+        <geo:longitud>200km</geo:longitud>
+        <geo:tipo>natural</geo:tipo>
+    </geo:canal>
+     <mkt:canal xmlns:mkt="marketing">
+        <mkt:medio>online</mkt:medio>
+        <mkt:comision>5%</mkt:comision>
+    </mkt:canal>
+    <mkt:canal xmlns:mkt="marketing">
+        <mkt:medio>online</mkt:medio>
+        <mkt:comision>20%</mkt:comision>
+    </mkt:canal>
+</reg:registro>

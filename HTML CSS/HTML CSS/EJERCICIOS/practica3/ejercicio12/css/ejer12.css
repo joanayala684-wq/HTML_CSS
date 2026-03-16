@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url("../font/centurygothic.ttf");
+
+}
+body{
+font-family:'Century Gothic' ;
+}
+h1{
+text-align: center;
+color: #01164B;
+}
+table{
+margin: auto;}
+.medusa1, .medusa2{
+border: 1px solid #01164B;
+background-color: #BEC9F6;
+padding: 10px;
+}
+.medusa1{
+ width: 330px;
+}
+.medusa2{
+    width: 400px;
+}
+.text1, .text2{
+background-color: #01164B;
+font-size: 25px;
+color: white;
+padding: 10px;
+width: 300px;
+}
+.text1{
+ vertical-align: bottom;
+}
+.text2{
+vertical-align: top;
+text-align: right;
+}

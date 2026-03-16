@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<coches>
+  <coche marca="Audi">FWX4455</coche>
+    <coche marca="Audi">GCC1256</coche>
+    <coche marca="Golf">CFM5353</coche>
+</coches>

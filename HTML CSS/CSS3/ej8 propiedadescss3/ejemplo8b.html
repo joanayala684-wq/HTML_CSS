@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Colores RGBA con CSS 3</title>
+		<link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+		<style>
+			body {
+				font-family: 'Mooli', sans-serif;	
+			}
+			div.cuadrado{
+				width: 150px;
+				height: 40px;
+				border: 1px solid #dddddd;
+				margin: 5px;
+			}
+			div.textogrande{
+
+				font-weight: bold; 
+				font-size: 40pt;
+			}
+			.fondo1 {
+				background-color: rgba(200, 0, 0, 0.5);
+				padding: 10px;
+			}
+			.fondo2 {
+				background-image: url(im5.jpg); 
+				padding: 10px;
+			}
+			.fondo3 {
+				background-image: url(im3.jpg); 
+				padding: 10px;
+			}	
+			.azul1 {
+				background-color: rgba(90, 185, 193, 0.1);
+			}
+			.azul2 {
+				background-color: rgba(90, 185, 193, 0.4);
+			}
+			.azul3 {
+				background-color: rgba(90, 185, 193, 0.7);
+			}
+			.azul4 {
+				background-color: rgb(90, 185, 193);
+			}
+			.textorojo1 {
+				color: rgba(200, 0, 0, 0.5);
+			}
+			.textorojo2 {
+				color: rgba(200, 0, 0, 0.8);
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Colores RGBA con CSS 3</h1>
+
+		<h2>Ejemplo de capas con fondo azul y varias transparencias</h2>
+		<div class="cuadrado azul1"></div>
+		<div class="cuadrado azul2"></div>
+		<div class="cuadrado azul3"></div>
+		<div class="cuadrado azul4"></div>
+
+		<h2>Ejemplo de capas con fondo verde y varias transparencias, sobre una capa con fondo salmón</h2>
+		<div class="fondo1">
+		<div class="cuadrado azul1"></div>
+		<div class="cuadrado azul2"></div>
+		<div class="cuadrado azul3"></div>
+		<div class="cuadrado azul4"></div>
+		</div>
+
+		<h2>Ejemplo de texto de color rojo y varias transparencias, sobre una capa con una imagen de fondo</h2>
+		<div class="fondo2">
+		<div class="textogrande textorojo1">Este texto está para que se vea que puede ser también medio transparente</div>
+		<div class="textogrande textorojo2">Este texto está para que se vea que puede ser también medio transparente</div>
+		</div>
+
+		<h2>Ejemplo de capas con fondo fucsia y varias transparencias, sobre una capa con una imagen de fondo</h2>
+		<div class="fondo3">
+		<div class="cuadrado azul1"></div>
+		<div class="cuadrado azul2"></div>
+		<div class="cuadrado azul3"></div>
+		<div class="cuadrado azul4"></div>
+		</div>
+	</body>
+</html>

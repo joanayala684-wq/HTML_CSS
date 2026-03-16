@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE CATALOGO SYSTEM "ejer9.dtd">
+<CATALOGO>
+  <ALBUM>
+    <TITULO formato="Vinilo">Kind of Blue</TITULO>
+    <ARTISTA anio="1959">Miles Davis</ARTISTA>
+    <DISCOGRAFICA>Columbia Records</DISCOGRAFICA>
+    <PRECIO>32.50</PRECIO>
+  </ALBUM>
+
+  <ALBUM>
+    <TITULO formato="Vinilo">Thriller</TITULO>
+    <ARTISTA anio="1982">Michael Jackson</ARTISTA>
+    <PRECIO>28.95</PRECIO>
+  </ALBUM>
+
+  <ALBUM>
+    <TITULO formato="Vinilo">Motomami</TITULO>
+    <ARTISTA anio="2022">Rosalía</ARTISTA>
+    <DISCOGRAFICA>Columbia / Sony Music</DISCOGRAFICA>
+    <PRECIO>35.00</PRECIO>
+  </ALBUM>
+</CATALOGO>

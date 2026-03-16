@@ -1,0 +1,19 @@
+body {
+    background-color: beige;
+    font-size: 22px;
+    color: darkred;
+    text-align: center;
+}
+
+.primerimg{
+    width: 250px;
+    height: 180px;
+    border: 2px solid darkred;
+    margin: 50px;
+}
+
+.segundoimg {
+    width: 350px;
+    height: 250px;
+    border: 2px solid darkred;
+}

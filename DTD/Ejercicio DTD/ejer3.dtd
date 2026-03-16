@@ -1,0 +1,3 @@
+<!ELEMENT saludos (saludo+)>
+<!ELEMENT saludo (#PCDATA)>
+<!ATTLIST saludo idioma (POR | ESP | ALE | FRA | ITA) "ESP">

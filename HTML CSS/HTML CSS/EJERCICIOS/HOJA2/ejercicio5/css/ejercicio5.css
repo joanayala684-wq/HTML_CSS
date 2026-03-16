@@ -1,0 +1,23 @@
+body {
+    background-color: #f0f4f8;
+    color: #222;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: blue;
+    font-weight: bold;
+}
+
+hr{
+    border: 2px solid #ccc;
+}
+
+#rojo{
+    color: red;
+}
+
+p{
+    color: #222;
+}

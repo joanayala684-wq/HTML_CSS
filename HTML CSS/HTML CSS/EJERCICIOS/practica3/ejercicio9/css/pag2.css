@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins/Poppins-Italic.ttf)}
+body{
+background-color: #CC0099;
+font-family: 'Poppins';
+font-size: 26px;
+color:#FFFFCC;
+}
+.fuente{
+font-size: 30px;
+text-align: center;
+}
+.Belvedere{
+width: 100px;
+height: 150px;
+margin-right: 10px;
+}
+.Balcony{
+width: 100px;
+height: 150px;
+margin-left: 10px;
+}
+#dere{
+text-align: right;
+}

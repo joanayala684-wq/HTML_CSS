@@ -1,0 +1,4 @@
+<!ELEMENT inventores (inventor+)>
+<!ELEMENT inventor EMPTY>
+<!ATTLIST inventor nombre CDATA #IMPLIED>
+<!ATTLIST inventor invento CDATA #REQUIRED>

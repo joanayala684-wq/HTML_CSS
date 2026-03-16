@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE libro_recetas SYSTEM "ejer8.dtd">
+<libro_recetas>
+  <receta>
+    <titulo>Tortilla de Patatas</titulo>
+    <ingrediente>6 huevos camperos</ingrediente>
+    <ingrediente>4 patatas grandes (variedad monalisa)</ingrediente>
+    <ingrediente>1 cebolla blanca</ingrediente>
+    <ingrediente>Aceite de oliva virgen extra</ingrediente>
+    <ingrediente>Sal fina</ingrediente>
+    <preparacion>Cortar las patatas y la cebolla en lascas finas. Freír a fuego lento hasta que estén blandas. Escurrir bien el aceite y mezclar con los huevos batidos. Cuajar en la sartén por ambos lados al gusto.</preparacion>
+    <truco>Añade un chorrito de leche a los huevos batidos para que la tortilla quede mucho más esponjosa.</truco> 
+  </receta>
+
+  <receta>
+    <titulo>Pan con Tomate y Jamón</titulo>
+    <ingrediente>2 rebanadas de pan de hogaza</ingrediente>
+    <ingrediente>1 tomate maduro de colgar</ingrediente>
+    <ingrediente>Aceite de oliva virgen extra</ingrediente>
+    <ingrediente>Jamón ibérico</ingrediente>
+    <preparacion>Tostar ligeramente el pan. Cortar el tomate por la mitad y frotarlo con fuerza sobre la miga del pan. Añadir un chorrito de aceite y colocar las lonchas de jamón encima.</preparacion>
+    </receta>
+
+  <receta>
+    <titulo>Gambas al Ajillo</titulo>
+    <ingrediente>400g de gambas peladas</ingrediente>
+    <ingrediente>4 dientes de ajo</ingrediente>
+    <ingrediente>1 guindilla seca</ingrediente>
+    <ingrediente>Aceite de oliva virgen extra</ingrediente>
+    <ingrediente>Perejil fresco</ingrediente>
+    <preparacion>Laminar los ajos y dorarlos en una cazuela de barro con abundante aceite y la guindilla. Cuando bailen, añadir las gambas y cocinar 2 minutos. Espolvorear perejil al servir.</preparacion>
+    <truco>No dejes que el ajo se queme o amargará todo el plato; retira del fuego en cuanto empiece a dorarse.</truco> 
+  </receta>
+</libro_recetas>

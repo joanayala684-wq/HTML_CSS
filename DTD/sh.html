@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Huéspedes - Fazbear Entertainment</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #f1c40f; /* Amarillo Fazbear */
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .form-container {
+            background-color: #fff;
+            border: 8px solid #e74c3c; /* Rojo vibrante 80s */
+            padding: 30px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 10px 10px 0px #000;
+            color: #333;
+            background-image: radial-gradient(#f7f7f7 20%, transparent 20%), radial-gradient(#f7f7f7 20%, transparent 20%);
+            background-position: 0 0, 10px 10px;
+            background-size: 20px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            background-color: #e74c3c;
+            color: white;
+            padding: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .section-title {
+            border-bottom: 2px solid #e74c3c;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #c0392b;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 2px solid #333;
+            background-color: #f9f9f9;
+            box-sizing: border-box;
+            font-family: 'Courier New', sans-serif;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: #f1c40f;
+            background-color: #fffde7;
+        }
+
+        .btn-submit {
+            margin-top: 25px;
+            width: 100%;
+            padding: 15px;
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            cursor: pointer;
+            text-transform: uppercase;
+            box-shadow: 4px 4px 0px #000;
+        }
+
+        .btn-submit:hover {
+            background-color: #c0392b;
+            transform: translate(-2px, -2px);
+            box-shadow: 6px 6px 0px #000;
+        }
+
+        .disclaimer {
+            font-size: 0.7em;
+            color: #777;
+            margin-top: 15px;
+            text-align: justify;
+            line-height: 1.2;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>CONTRATO DE AMISTAD</h2>
+    <p style="text-align: center; font-size: 0.8em;">Fazbear Entertainment Inc. (1983-1987)</p>
+
+    <form action="#">
+        <div class="section-title">DATOS DEL TUTOR LEGAL</div>
+        
+        <label for="tutor">Nombre del Adulto a Cargo:</label>
+        <input type="text" id="tutor" name="tutor" placeholder="Ej. William Afton" required>
+
+        <label for="tel">Teléfono de Contacto:</label>
+        <input type="tel" id="tel" name="tel" placeholder="555-FAZ-BEAR" required>
+
+        <div class="section-title">DETALLES DE LA CELEBRACIÓN</div>
+        
+        <label for="num-kids">Número de Niños en el Grupo:</label>
+        <select id="num-kids" name="num-kids">
+            <option value="1">1 (Solo mi pequeño)</option>
+            <option value="2-4">2 a 4 (Pequeña fiesta)</option>
+            <option value="5+">Más de 5 (¡Fiesta masiva!)</option>
+        </select>
+
+        <label for="kids-info">Nombres y Edades (Uno por línea):</label>
+        <textarea id="kids-info" name="kids-info" rows="3" placeholder="Ej: Gabriel - 7 años"></textarea>
+
+        <div class="section-title">PROTOCOLO DE DIVERSIÓN</div>
+
+        <label for="alergias">¿Alguna restricción alimentaria?</label>
+        <select id="alergias" name="alergias">
+            <option value="ninguna">Ninguna - ¡Pueden con todo!</option>
+            <option value="gluten">Sin Gluten (Masa especial)</option>
+            <option value="lactosa">Sin Lactosa (Queso sintético)</option>
+            <option value="vegetariano">Vegetariano (Solo verduras)</option>
+        </select>
+
+        <label for="fav">Selecciona tu Animatrónico Favorito:</label>
+        <select id="fav" name="fav">
+            <option value="freddy">Freddy Fazbear (El líder)</option>
+            <option value="bonnie">Bonnie (El guitarrista)</option>
+            <option value="chica">Chica (¡A comer!)</option>
+            <option value="foxy">Foxy (El pirata - Fuera de servicio temporalmente)</option>
+            <option value="gold">???</option>
+        </select>
+
+        <button type="submit" class="btn-submit">¡REGISTRARME AHORA!</button>
+
+        <p class="disclaimer">
+            *Al enviar este formulario, usted libera a Fazbear Entertainment de toda responsabilidad por daños personales, pérdida de extremidades o avistamientos de figuras extrañas en las cámaras de seguridad. La pizza puede contener trazas de metal.
+        </p>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+@font-face {
+    font-family:'Rethink_sans';
+    src: url(../font/RethinkSans-Bold.ttf);
+}
+body{
+background-color: #728eaa ;
+font-family:'Rethink_sans';
+}
+form{
+padding: 60px 30px;
+width:500px;
+border:1px solid #e1e1e1;
+}
+h1{
+text-align: center;
+text-transform: uppercase;
+font-size: 35px;
+color: #445668;
+margin-bottom:35px
+}
+fieldset{
+padding:10px;
+}
+label{
+margin-top:11px;
+margin-right:20px;
+text-align: right;
+width:95px;
+text-transform: uppercase;
+text-decoration: solid;
+}
+input{
+background-color:#728eaa;
+height:35px;
+width:260px;
+padding:5px 20px 0px 20px;
+margin: 0px 0px 20px 0px;
+
+color
+}
+

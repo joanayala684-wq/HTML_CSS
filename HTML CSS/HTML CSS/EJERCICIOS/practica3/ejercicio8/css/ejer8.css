@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url("../font/centurygothic.ttf");
+}
+*{
+    text-align: center;
+}
+body{
+    font-family: 'Century Gothic';
+    font-size: 22px; color: darkred;
+    background-color: beige;
+}
+.primerimg{
+height: 180px;
+width: 250px;
+border:  2px solid; color: darkred; 
+}
+.segundoimg{
+height: 250px;
+width: 350px;
+border:  2px solid; color: darkred; 
+
+
+}

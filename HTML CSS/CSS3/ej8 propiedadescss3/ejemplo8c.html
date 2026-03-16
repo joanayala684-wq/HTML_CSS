@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Sombra con CSS 3</title>
+	<link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+	<style>
+		body {
+			font-family: 'Hind', sans-serif;
+		}
+		#cajasombra {
+			background-color: #ddd;
+			width: 300px;
+			padding: 10px;		
+			box-shadow: 5px 5px 0 #333;
+		}
+		#sombraclara {
+			width: 200px;
+			padding: 10px;
+			background-color: #999;
+			color: #fff;	
+			box-shadow: 2px 2px 2px #ffc;
+		}	
+		#cajanegra {
+			padding: 10px;
+			background-color: #000;
+		}	
+		#sombraredondeada {
+			background-color: purple;
+			color: #fff;
+			width: 400px;
+			padding: 10px;
+			border-radius: 7px;	
+			box-shadow: 15px -10px 3px #000;
+		}
+	</style>
+</head>
+<body>
+   <div id="cajasombra">
+	Esta es una capa con sombra creada con CSS 3.
+   </div>
+   <br>
+   <br>
+   <div id="cajanegra">
+	<div id="sombraclara">
+	Esta caja la pongo sobre fondo negro, para hacer un elemento con sombra clara.
+	</div>	
+   </div>
+   <br>
+   <br>  
+   <div id="sombraredondeada">
+	Esta capa tiene las esquinas redondeadas y la sombra se adapta a la forma de la capa, por lo que tendrá esquinas redondeadas.
+   </div>  
+</body>
+</html>

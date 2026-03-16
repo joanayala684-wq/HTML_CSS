@@ -1,0 +1,95 @@
+* {
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+@font-face {
+    font-family: 'Allertastencil' ;
+    src:  url(AllertaStencil.ttf);
+}
+@font-face {
+    font-family: 'KOHO' ;
+    src:  url(KoHo.ttf);
+}
+body{
+    margin: 20px auto;
+    width: 80%;
+    background-color: #E8E8E8;
+    font-family: 'KOHO' ;
+    font-size: 18px;
+    text-align: center ;
+}
+
+    
+header{
+    border-radius: 3px;
+    width: 100%;
+    height: 60px;
+    background-color: #5f060c;
+    font-family: 'Allertastencil';
+    color:#E8E8E8;
+    padding-top: 10px;
+    text-shadow: 4px black;
+    
+}
+#centrar{
+    text-align: center;
+    align-items: center;
+    display: block;
+    
+}
+h2{
+ 
+    font-family: 'KOHO';
+    color: #5f060c;
+}
+
+
+#cuadro1{
+    
+    width: 50%;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+}
+#cuadro2{
+  
+    width: 100%;
+    height: 100%;
+     text-align: center;
+    display: flex;
+}
+form{
+   width: 50%;
+    text-align: center;
+    
+}
+img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 4px black;
+}
+fieldset{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    height: 200px;
+}
+input{
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+
+}
+footer{
+    width: 100%;
+    margin-top: 30px;
+    background-color: #5f060c;
+    color:#E8E8E8;
+    
+}
+i{
+    width: 60px;
+}
+

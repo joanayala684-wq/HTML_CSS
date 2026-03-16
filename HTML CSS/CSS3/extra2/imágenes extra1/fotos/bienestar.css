@@ -1,0 +1,82 @@
+* {
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', 'Sansita', sans-serif;
+    background-color: #fff1ff;
+    width: 800px;
+    color: #421c3e;
+    margin: auto;
+}
+#cabecera{
+    background-color: #c070af;
+    text-align: center;
+    color: #fff1ff;
+    font-size: 20px;
+    height: 150px;
+    
+}
+#sattva img{
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
+
+#menu{
+    height: 40px;
+    background-color: #f0d8ed;
+    text-align: center;
+    line-height: 40px;
+    text-align: center;
+    
+}
+
+#menu2{
+    background-color: #a6479b;
+    height: 50px;
+}
+#menu2 table{
+    width: 100%;
+    height: 100%;
+}
+
+.vinculo{
+    color: #f0d8ed;
+    text-align: center;
+    font-weight: bold
+    
+    
+
+}
+#cuadro_imagen{
+    background-color:#f0d8ed;
+    height: 300px;
+    padding-top: 50px;
+    position: relative;
+    
+}
+
+#fondo{
+    height: 200px;
+    width: 150px;
+    margin-left: 300px;
+}
+footer{
+    background-color: #c070af;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo{
+    width: 30px;
+    height: 50px;
+   
+
+}
+

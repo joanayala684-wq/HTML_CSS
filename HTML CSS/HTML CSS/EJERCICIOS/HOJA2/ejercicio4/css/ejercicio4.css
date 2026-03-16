@@ -1,0 +1,28 @@
+body {
+    background-image: url(..//img/FOTO4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;  
+    font-size: 30px;
+     
+}
+
+h1{
+    margin-bottom: 1%;
+    text-align: center;
+    color: yellow;
+    font-style: italic;
+}
+
+h2{
+    text-align: center;
+    color: yellow;
+}
+
+p{
+    text-align: center;
+    color: white;
+    line-height: 1.6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

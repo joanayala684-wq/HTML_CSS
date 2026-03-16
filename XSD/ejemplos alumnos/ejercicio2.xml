@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="ejercicio2.xsd">
+   <ficha numero="01" letra= "Z">
+      <nombre>Ana Sanz</nombre>
+      <edad>22</edad>
+   </ficha>
+   <ficha numero="02">
+      <nombre>Iker Rubio</nombre>
+      <edad>23</edad>
+   </ficha>
+</fichas>

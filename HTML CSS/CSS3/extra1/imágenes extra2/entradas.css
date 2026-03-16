@@ -1,0 +1,57 @@
+* {
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Niramit', sans-serif;
+    font-size: 20px;
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    /*centrar form*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+#cuadro{
+    background-color: #e31c1e;
+    width: 500px;
+    padding: 50px;
+    margin-top: 30px;
+    
+}
+fieldset{
+     border: 2px solid #ccc;
+    width: 400px;
+    padding: 20px ;
+    margin-top: 30px;
+    background-color: transparent;
+   
+}
+
+legend{
+    font-size: 20px;
+    padding: 0 10px;
+    
+}
+input[type="text"], select, textarea{
+    display:inline-block ;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 30px;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+    width: auto;
+    height: auto;
+   
+}
+textarea{
+    width: 100%;
+    height: auto;
+}

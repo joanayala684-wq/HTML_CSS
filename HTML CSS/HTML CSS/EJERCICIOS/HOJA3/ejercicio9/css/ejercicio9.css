@@ -1,0 +1,100 @@
+.main {
+    background-image: url(../img/Wallfall.jpg);
+    margin-left: 30px;
+    font-family: Poppins;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+
+#derecha {
+    text-align: right;
+    font-size: 30px;
+    color: #000;
+    font-style: italic;
+}
+
+.titulo{
+    font-size: 40px;
+    color: #666;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 30px;
+    color: #666;
+    text-align: right;
+}
+
+.italic{
+    font-style: italic;
+}
+
+#izq {
+    font-size: 26px;
+    color: #000;
+}
+
+.foto1{
+    background-color: #E1D6C8;
+    font-family: Poppins;
+    color: #FF00CC;
+    margin-left: 10px;
+}
+
+.titulo1{
+    font-size: 26px;
+    font-family: Poppins;
+    color: #FF00CC;
+}
+
+#centrado{
+    text-align: center;
+}
+
+.primer{
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.segundo{
+    width: 200px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.foto2{
+    background-color: #cc0099;
+    font-family: Poppins;
+}
+
+h1{
+    font-size: 30px;
+    color: #ffffcc;
+    text-align: center;
+}
+
+#izq1{
+    text-align: left;
+    font-size: 26px;
+    color: #ffffcc;
+}
+
+#derecha1{
+    text-align: right;
+    font-size: 26px;
+    color: #ffffcc;
+}
+
+.Belvedere{
+    width: 100px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.Balcony{
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+}
