@@ -1,0 +1,6 @@
+<elemento_quimico>
+  <estado>sólido</estado>
+  <simbolo>Au</simbolo>
+  <punto_ebullicion unidades="centígrados">2856</punto_ebullicion>
+  <densidad unidades="gramos por centímetros cúbicos">19.3</densidad>
+</elemento_quimico>

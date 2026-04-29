@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE peliculas SYSTEM "ejercicio4.dtd">
+<?xml-stylesheet type="text/xsl" href="ejercicio4b.xsl"?>
+<peliculas>
+	<url>www.peliculas.es</url>
+	<pelicula>
+		<nombre>Soul</nombre>
+		<img>soul.jpg</img>
+		<direccion>Pete Docter</direccion>
+		<animacion/>
+		<anio>2020</anio>
+	</pelicula>	
+	<pelicula>
+		<nombre>Flow, un mundo que salvar</nombre>
+		<img>flow.jpg</img>
+		<direccion>Gints Zilbalodis</direccion>
+		<animacion/>
+		<anio>2024</anio>
+	</pelicula>
+	<pelicula>
+		<nombre>Nomadland</nombre>
+		<img>nomadland.jpg</img>
+		<direccion>Chloe Zhao</direccion>
+		<no_animacion tipo="drama">
+			<actor sexo="actriz">Frances McDormand</actor>
+			<actor sexo="actor">David Strathairn</actor>
+		</no_animacion>
+		<anio>2020</anio>
+	</pelicula>
+	<pelicula>
+		<nombre>La infiltrada</nombre>
+		<img>la_infiltrada.jpg</img>
+		<direccion>Arantxa Echevarria</direccion>
+		<no_animacion tipo="thriller">
+			<actor sexo="actriz">Carolina Yuste</actor>
+			<actor sexo="actor">Luis Tosar</actor>	
+			<actor sexo="actor">Iñigo Gastesi</actor>
+		</no_animacion>
+		<anio>2024</anio>
+	</pelicula>
+	<pelicula>
+		<nombre>Mickey 17</nombre>
+		<img>mickey_17.jpg</img>
+		<direccion>Bong Joon-ho</direccion>
+		<no_animacion tipo="Ciencia Ficción">
+			<actor sexo="actor">Robert Pattinson</actor>
+			<actor sexo="actriz">Naomi Ackie</actor>
+			<actor sexo="actor">Mark Ruffalo</actor>
+		</no_animacion>
+		<anio>2025</anio>
+	</pelicula>
+</peliculas>

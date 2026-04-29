@@ -1,0 +1,7 @@
+<helado>
+  <sabor>chocolate</sabor>
+  <tipo>tarrina</tipo>
+  <tamaño>grande</tamaño>
+  <precio>3.5</precio>
+  <bajo_en_calorias>false</bajo_en_calorias>
+</helado>

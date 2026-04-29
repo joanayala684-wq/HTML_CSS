@@ -1,0 +1,88 @@
+EJERCICIO 1
+1. Todos los títulos
+    /libreria/libro/titulo
+    //titulo
+2. El título del primer libro
+    /libreria/libro[1]/titulo
+    //libro[1]/titulo
+3. Todos los precios
+    //libro/precio
+4. Los precios mayores de 35
+    //libro[precio>35]/precio
+5. Los títulos de los libros con un precio mayor de 35
+    //libro[precio>35]/titulo
+EJERCICIO 2
+1. Nombre de la universidad
+    universidad/nombre
+2. Nombre de las carreras
+    universidad/carreras/carrera/nombre
+    //carrera/nombre
+3. Nombre de los alumnos
+    //alumno/nombre
+4. Identificadores de las carreras
+    //carrera/@id
+5. Datos de la carrera cuyo id es c01
+    //carrera[@id="c01"]
+6. Centro en que se estudia la carrera cuyo id es c02
+    //carrera[@id="c02"]/centro
+7. Códigos de las carreras en las que hay algún alumno matriculado
+        //alumno/estudios/carrera/@codigo
+8. Código de la carrera que estudia el último alumno.
+9. Nombre de las asignaturas que tengan 4 créditos teóricos
+    //asignatura[creditos_teoricos=4]/nombre
+10. Identificador de los alumnos que son mujeres
+    //alumno[sexo="Mujer"]/@id
+EJERCICIO 3
+1. Seleccionar todos los titulo de un libro
+2. Seleccionar el autor del libro
+libro/autor
+3. Seleccionar todos los párrafos del libro
+libro/capitulo/parrafo
+4. Seleccionar el atributo num que posean los elementos capitulo
+    libro/capitulo/@num
+5. Seleccionar todos los elementos hijo de los capitulo que posean el atributo public
+    libro/capitulo[@public="si"]/*
+6. Seleccionar todos los elementos hijo de parrafo cuyo atributo destacar sea igual a &quot;si&quot;.
+        libro/capitulo/parrafo[@destacar="si"]/*
+7. Seleccionar todos atributos num de los apéndices.
+    //apendice/@num
+8. Seleccionar todos los atributos href de todos los hijos de los párrafos del fichero
+    //parrafo/enlace/@href
+
+9.
+Seleccionar todos los párrafos de los capítulos (no de los apéndices) que posean un atributo :
+    //capitulo/parrafo[@*]
+10. Seleccionar todos los parrafos de un libro
+//parrafo
+11. Seleccionar todos los descendientes de parrafo que tienen un atributo href
+//parrafo//*[@href]
+12. Nodos que tienen algún hijo pár
+13. Nodos capítulo que tienen algún hijo párrafo
+//capitulo[parrafo]
+14. Todos los nodos descendientes de los párrafos
+//parrafo/*
+15. El texto de todos los párrafos:
+//parrafo/text()
+16. El último capítulo:
+//capitulo[last()]
+EJERCICIO 4
+1. Nombre de la agencia
+agencia/nombre
+2. Página web de la agencia
+agencia/web
+3. Nombre de los viajes programados
+//capitulo[last()]
+4. Siglas de los viajes
+//capitulo[last()]
+5. Meses en los que están programados los destinos
+//salida/@mes
+6. Mostrar el nombre del viaje que tiene como id panago
+agencia/viajes/viaje[@id="panago"]/nombre
+7. Mostrar viajes con precio inferior a 2000€
+//viaje[precio < 2000]
+8. Nombre de los viajes que salgan en julio
+//viaje[salida/@mes="julio"]/nombre
+9. Mostrar los viajes de junio o con precio superior a 2500€
+//viaje[salida[@mes="junio"] or precio > 2500]/nombre
+10. Nombre y precio de los viajes a Bali
+//viaje[nombre="Bali 360"]/nombre|//viaje[nombre="Bali 360"]/precio

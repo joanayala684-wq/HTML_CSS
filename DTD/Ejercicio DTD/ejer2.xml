@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE ciudades SYSTEM "ejer2.dtd">
 <ciudades>
-<ciudad>
-<nombre>Buenos Aires</nombre>
-<capital/>
-</ciudad>
-<ciudad>
-<nombre>Liverpool</nombre>
-</ciudad>
-<ciudad>
-<nombre>Osaka</nombre>
-</ciudad>
-<ciudad>
-<nombre>Oslo</nombre>
-<capital/>
-</ciudad>
+    <ciudad>
+        <nombre>Buenos Aires</nombre>
+        <capital/>
+    </ciudad>
+    <ciudad>
+        <nombre>Liverpool</nombre>
+        </ciudad>
+    <ciudad>
+        <nombre>Osaka</nombre>
+        </ciudad>
+    <ciudad>
+        <nombre>Oslo</nombre>
+        <capital/>
+    </ciudad>
 </ciudades>

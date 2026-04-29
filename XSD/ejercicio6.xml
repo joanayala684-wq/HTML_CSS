@@ -1,0 +1,12 @@
+<pedido_muebles>
+  <mueble>
+    <tipo>mesa</tipo>
+    <color>fresno</color>
+    <unidades>4</unidades>
+  </mueble>
+  <mueble>
+    <tipo>armario</tipo>
+    <color>blanco</color>
+    <unidades>1</unidades>
+  </mueble>
+</pedido_muebles>
